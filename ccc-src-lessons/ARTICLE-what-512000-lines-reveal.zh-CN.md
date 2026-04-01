@@ -8,7 +8,7 @@
 
 2026 年 3 月 31 日凌晨 4:23，Solayer Labs 的实习生 Chaofan Shou 在 npm 公共仓库中发现了一个不该出现的文件：59.8 MB，藏在 Anthropic 的 Claude Code 包里。Claude Code 是数十万开发者日常使用的 AI 编程工具，而这个文件是一份 source map —— 一种调试产物，相当于编译后代码的 X 光片，任何人只要拿到它，就能把内部结构看得一清二楚。中午，整个代码库已被[镜像到 GitHub](https://github.com/sanbuphy/claude-code-source-code)。傍晚，star 数突破 1,100。第二天早上，已经有人[用 Rust 重写了一遍](https://github.com/Kuberwastaken/claude-code)。
 
-报道铺天盖地。[*Fortune*](https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/) 称其为"第二次重大安全事故"。[*Gizmodo*](https://gizmodo.com/source-code-for-anthropics-claude-code-leaks-at-the-exact-wrong-time-2000740379) 说时机"再糟糕不过了"。Dev.to 和 Hacker News 上的分析迅速罗列出要点 —— KAIROS、Buddy、Undercover Mode、44 个功能开关。
+报道铺天盖地。*[Fortune](https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/)* 称其为"第二次重大安全事故"。*[Gizmodo](https://gizmodo.com/source-code-for-anthropics-claude-code-leaks-at-the-exact-wrong-time-2000740379)* 说时机"再糟糕不过了"。Dev.to 和 Hacker News 上的分析迅速罗列出要点 —— KAIROS、Buddy、Undercover Mode、44 个功能开关。
 
 但 51.2 万行代码，实在太多了。大多数报道停留在"有哪些功能"的层面，很少有人深入到"它们是怎么运作的"，以及"这意味着什么"。逐文件通读全部 1,332 个源码文件之后，浮现出若干初始报道未曾触及的层面。
 
@@ -35,40 +35,40 @@ export const cat = c(0x63,0x61,0x74) as 'cat'
 
 ```
  duck           goose          blob
-   __            (·>          .----.
- <(· )___         ||         ( ·  · )
+   __             (·>        .----.
+ <(· )___         ||        ( ·  · )
   (  ._>       _(__)_       (      )
    `--´         ^^^^         `----´
 
- cat            dragon         octopus
-  /\_/\        /^\  /^\       .----.
+ cat            dragon       octopus
+  /_/\        /^\  /^\      .----.
  ( ·   ·)     <  ·  ·  >    ( ·  · )
  (  ω  )      (   ~~   )    (______)
- (")_(")       `-vvvv-´     /\/\/\/\
+ (")_(")       `-vvvv-´     /\/\/\/  
 
- owl            penguin        turtle
-  /\  /\        .---.         _,--._
- ((·)(·))      (·>·)         ( ·  · )
- (  ><  )     /(   )\      /[______]\
+ owl           penguin       turtle
+  /\  /\       .---.         _,--._
+ ((·)(·))      (·>·)        ( ·  · )
+ (  ><  )     /(   )\      /[______]  
   `----´       `---´        ``    ``
 
  snail          ghost          axolotl
  ·    .--.      .----.      }~(______)~{
   \  ( @ )     / ·  · \     }~(· .. ·)~{
-   \_`--´      |      |       ( .--. )
-  ~~~~~~~      ~`~``~`~       (_/  \_)
+   _`--´      |      |       ( .--. )
+  ~~~~~~~      ~`~``~`~       (_/  _)
 
- ????????       cactus         robot
- n______n     n  ____  n      .[||].
+ ????????       cactus       robot
+ n______n     n  ____  n     .[||].
 ( ·    · )    | |·  ·| |    [ ·  · ]
 (   oo   )    |_|    |_|    [ ==== ]
- `------´        |    |      `------´
+ `------´       |    |      `------´
 
  rabbit         mushroom       chonk
-  (\__/)       .-o-OO-o-.     /\    /\
+  (__/)       .-o-OO-o-.      /\    /  
  ( ·  · )     (__________)   ( ·    · )
-=(  ..  )=       |·  ·|     (   ..   )
- (")__(")        |____|      `------´
+=(  ..  )=       |·  ·|      (   ..   )
+ (")__(")        |____|       `------´
 ```
 
 有一个没有名字。在源码中，它的字节是：`0x63, 0x61, 0x70, 0x79, 0x62, 0x61, 0x72, 0x61`。
@@ -91,13 +91,13 @@ Fennec 也不对应 Opus 4.6。源码中有一个迁移文件 —— `migrateFen
 
 仔细阅读源码，可以得到一份更精确的对照表：
 
-| 代号 | 实际指代 | 来源证据 |
-|---|---|---|
-| **Tengu** | Claude Code（产品本身） | 966 个 `logEvent('tengu_*')` 调用，880 个 `tengu_*` 功能开关 |
-| **Fennec** | Claude Sonnet 5（2026 年 2 月发布） | `migrateFennecToOpus.ts` 迁移文件 |
-| **Capybara** | Opus 之上的**全新第四层级** | `prompts.ts` 注释："Capybara v8"、"capy v8 counterweight" |
-| **Mythos** | 首个 Capybara 层级产品（3 月 26 日经 CMS 泄漏） | Fortune 报道，Anthropic 博客草稿 |
-| **Numbat** | 尚未发布的下一代模型 | `prompts.ts:402`："Remove this section when we launch numbat" |
+| 代号           | 实际指代                               | 来源证据                                                         |
+| ------------ | ---------------------------------- | ------------------------------------------------------------ |
+| **Tengu**    | Claude Code（产品本身）                  | 966 个 `logEvent('tengu_*')` 调用，880 个 `tengu_*` 功能开关          |
+| **Fennec**   | Claude Sonnet 5（2026 年 2 月发布）      | `migrateFennecToOpus.ts` 迁移文件                                |
+| **Capybara** | Opus 之上的**全新第四层级**                 | `prompts.ts` 注释："Capybara v8"、"capy v8 counterweight"        |
+| **Mythos**   | 首个 Capybara 层级产品（3 月 26 日经 CMS 泄漏） | Fortune 报道，Anthropic 博客草稿                                    |
+| **Numbat**   | 尚未发布的下一代模型                         | `prompts.ts:402`："Remove this section when we launch numbat" |
 
 Capybara 不是一个模型版本。它是一个**全新层级** —— 自 2024 年建立 Haiku/Sonnet/Opus 体系以来的首次扩展。比 Opus 更大、更强、更贵。命名风格从诗歌转向了动物。水豚 —— 世界上最大的啮齿动物，体型庞大却性情温和 —— 就是藏在十六进制里的那一个。
 
@@ -237,7 +237,7 @@ KAIROS 是 iPhone 式的打法：仅限 Claude，深度整合，Anthropic 端到
 
 **反蒸馏防御**在 API 请求中注入虚假的工具定义 —— [最先由 Alex Kim 记录](https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/)。这个机制就像银行金库里的染色包：如果竞争对手录制 API 流量来训练自己的模型，伪造的工具定义会污染被窃取的数据。此外还有一个客户端哈希验证系统 —— HTTP 头中的 `cch=00000` 占位符在请求离开进程之前，会被 Bun 基于 Zig 的 HTTP 栈用一个计算出的哈希值覆盖。服务器验证该哈希以确认请求来自真正的 Claude Code 客户端。
 
-**`String.fromCharCode` 编码** —— 就是文章开头的那个 —— 是第七套系统。统一编码，让编码模式本身也不会暴露哪个物种名触发了这一切。
+**`String.fromCharCode`**** 编码** —— 就是文章开头的那个 —— 是第七套系统。统一编码，让编码模式本身也不会暴露哪个物种名触发了这一切。
 
 七套系统。每一套都真正精巧。
 
@@ -275,4 +275,4 @@ KAIROS 是 iPhone 式的打法：仅限 Claude，深度整合，Anthropic 端到
 
 ---
 
-*主要来源：Claude Code CLI v2.1.88，解包自 `claude-code-2.1.88.tgz`。所有文件路径及代码摘录均经原始源码树验证。*
+*主要来源：Claude Code CLI v2.1.88，解包自 ******`claude-code-2.1.88.tgz`******。所有文件路径及代码摘录均经原始源码树验证。*
