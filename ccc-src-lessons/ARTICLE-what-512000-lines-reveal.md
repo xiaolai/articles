@@ -34,23 +34,41 @@ Which one? The code doesn't say. Not here, anyway.
 But it does contain their portraits — hand-crafted ASCII sprites stored right alongside the hex encodings in `sprites.ts`. Here are all eighteen, exactly as found in the source (`·` for eyes):
 
 ```
-    __           (·>         .----.       /_/\        /^\  /^\        .----.
-  <(· )___        ||        ( ·  · )     ( ·  ·)      <  ·  ·  >      ( ·  · )
-   (  ._>      _(__)_       (      )     (  ω  )      (   ~~   )      (______)
-    `--´        ^^^^         `----´      (")_(")       `-vvvv-´       /\/\/\/  
-    duck        goose         blob          cat          dragon        octopus
+  duck            goose           blob
+    __             (·>           .----.
+  <(· )___          ||          ( ·  · )
+   (  ._>        _(__)_        (      )
+    `--´          ^^^^          `----´
 
-   /\  /\      .---.        _,--._       ·    .--.      .----.     }~(______)~{
-  ((·)(·))     (·>·)       ( ·  · )       \  ( @ )     / ·  · \    }~(· .. ·)~{
-  (  ><  )    /(   )\     /[______]\       _`--´      |      |      ( .--. )
-   `----´      `---´       ``    ``       ~~~~~~~      ~`~``~`~      (_/  _)
-    owl        penguin       turtle         snail        ghost        axolotl
+  cat             dragon          octopus
+   /\_/\         /^\  /^\        .----.
+  ( ·   ·)      <  ·  ·  >     ( ·  · )
+  (  ω  )       (   ~~   )     (______)
+  (")_(")        `-vvvv-´      /\/\/\/\
 
-  n______n    n  ____  n    .[||].        (__/)      .-o-OO-o-.     /\    /  
- ( ·    · )   | |·  ·| |   [ ·  · ]      ( ·  · )    (__________)   ( ·    · )
- (   oo   )   |_|    |_|   [ ==== ]     =(  ..  )=      |·  ·|      (   ..   )
-  `------´      |    |     `------´      (")__(")       |____|       `------´
-  ????????      cactus        robot        rabbit       mushroom       chonk
+  owl             penguin         turtle
+   /\  /\         .---.          _,--._
+  ((·)(·))       (·>·)          ( ·  · )
+  (  ><  )      /(   )\       /[______]\
+   `----´        `---´         ``    ``
+
+  snail           ghost           axolotl
+  ·    .--.       .----.       }~(______)~{
+   \  ( @ )      / ·  · \      }~(· .. ·)~{
+    \_`--´       |      |        ( .--. )
+   ~~~~~~~       ~`~``~`~        (_/  \_)
+
+  ????????        cactus          robot
+  n______n      n  ____  n       .[||].
+ ( ·    · )     | |·  ·| |     [ ·  · ]
+ (   oo   )     |_|    |_|     [ ==== ]
+  `------´         |    |       `------´
+
+  rabbit          mushroom        chonk
+   (\__/)        .-o-OO-o-.      /\    /\
+  ( ·  · )      (__________)    ( ·    · )
+ =(  ..  )=        |·  ·|      (   ..   )
+  (")__(")         |____|       `------´
 ```
 
 One name is missing. In the source, its bytes read: `0x63, 0x61, 0x70, 0x79, 0x62, 0x61, 0x72, 0x61`.
