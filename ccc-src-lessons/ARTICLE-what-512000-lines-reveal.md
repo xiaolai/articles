@@ -34,7 +34,7 @@ Which one? The code doesn't say. Not here, anyway.
 But it does contain their portraits — hand-crafted ASCII sprites stored right alongside the hex encodings in `sprites.ts`. Here are all eighteen, exactly as found in the source (`·` for eyes):
 
 ```
- duck           goose          blob
+ duck           goose         blob
    __             (·>        .----.
  <(· )___         ||        ( ·  · )
   (  ._>       _(__)_       (      )
@@ -42,20 +42,20 @@ But it does contain their portraits — hand-crafted ASCII sprites stored right 
 
  cat            dragon       octopus
   /_/\        /^\  /^\      .----.
- ( ·   ·)     <  ·  ·  >    ( ·  · )
+ ( ·  ·)      <  ·  ·  >    ( ·  · )
  (  ω  )      (   ~~   )    (______)
- (")_(")       `-vvvv-´     /\/\/\/  
+ (")_(")       `-vvvv-´     /\/\/\/\  
 
- owl           penguin        turtle
+ owl           penguin       turtle
   /\  /\       .---.         _,--._
  ((·)(·))      (·>·)        ( ·  · )
- (  ><  )     /(   )\      /[______]  
+ (  ><  )     /(   )\      /[______]\  
   `----´       `---´        ``    ``
 
  snail          ghost          axolotl
  ·    .--.      .----.      }~(______)~{
   \  ( @ )     / ·  · \     }~(· .. ·)~{
-   _`--´      |      |       ( .--. )
+    _`--´      |      |       ( .--. )
   ~~~~~~~      ~`~``~`~       (_/  _)
 
  ????????       cactus       robot
@@ -65,7 +65,7 @@ But it does contain their portraits — hand-crafted ASCII sprites stored right 
  `------´       |    |      `------´
 
  rabbit         mushroom       chonk
-  (__/)       .-o-OO-o-.     /\    /  
+  (__/)        .-o-OO-o-.     /\    /\  
  ( ·  · )     (__________)   ( ·    · )
 =(  ..  )=       |·  ·|      (   ..   )
  (")__(")        |____|       `------´
@@ -237,7 +237,7 @@ Here is a fact about Anthropic's engineering culture that the source code proves
 
 **Anti-distillation defenses** inject fake tool definitions into the API request — [first documented by Alex Kim](https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/). The mechanism works like a dye pack in a bank vault: if a competitor records API traffic to train a competing model, the decoy tools contaminate the stolen data. There's also a client hash verification system — a `cch=00000` placeholder in HTTP headers gets overwritten by Bun's Zig-based HTTP stack with a computed hash before the request leaves the process. The server validates the hash to confirm it came from a real Claude Code binary.
 
-**The ****************`String.fromCharCode`**************** encoding** of all eighteen species — the one we started with — is the seventh system. Uniform encoding so the pattern doesn't reveal which species is the codename.
+**The ********************`String.fromCharCode`******************** encoding** of all eighteen species — the one we started with — is the seventh system. Uniform encoding so the pattern doesn't reveal which species is the codename.
 
 Seven systems. Each one genuinely clever.
 
@@ -275,4 +275,4 @@ All of it inside a 59.8 MB file, on a public registry, for anyone to read. All o
 
 ---
 
-*Primary source: Claude Code CLI v2.1.88, unpacked from ********`claude-code-2.1.88.tgz`********. All file paths and code excerpts verified against the original source tree.*
+*Primary source: Claude Code CLI v2.1.88, unpacked from **********`claude-code-2.1.88.tgz`**********. All file paths and code excerpts verified against the original source tree.*
