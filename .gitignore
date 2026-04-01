@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# Except the directory structure
+!ccc-src-lessons/
+!ccc-src-lessons/ARTICLE-what-512000-lines-reveal.md
+!ccc-src-lessons/ARTICLE-what-512000-lines-reveal.zh-CN.md
+!ccc-src-lessons/assets/
+!ccc-src-lessons/assets/images/
+!ccc-src-lessons/assets/images/*.png
+!ccc-src-lessons/assets/images/*.json
+
+# Always keep gitignore
+!.gitignore
