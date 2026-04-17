@@ -1,14 +1,18 @@
-# Ignore everything
+# Default: ignore everything in repo root
 *
 
-# Except the directory structure
-!ccc-src-lessons/
-!ccc-src-lessons/ARTICLE-what-512000-lines-reveal.md
-!ccc-src-lessons/ARTICLE-what-512000-lines-reveal.zh-CN.md
-!ccc-src-lessons/assets/
-!ccc-src-lessons/assets/images/
-!ccc-src-lessons/assets/images/*.png
-!ccc-src-lessons/assets/images/*.json
-
-# Always keep gitignore
+# Keep the gitignore itself
 !.gitignore
+
+# Allow top-level README if present
+!README.md
+
+# Allow dated article directories and all contents.
+# Convention: YYYY-MM-DD/<slug>/ with markdown, images/, assets/ inside.
+!????-??-??/
+!????-??-??/**
+
+# Re-ignore common cruft inside article directories
+????-??-??/**/.DS_Store
+????-??-??/**/*.swp
+????-??-??/**/*.bak
