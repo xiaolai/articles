@@ -4,7 +4,7 @@
 
 ---
 
-![](./assets/images/cover-1775045032585-gepz.png)
+![](./assets/images/cover-1775045032585-gepz.webp)
 
 At 4:23 AM on March 31, 2026, an intern named Chaofan Shou noticed a 59.8 MB file sitting in plain sight on the npm registry. Inside Anthropic's Claude Code package — the AI coding tool used by hundreds of thousands of developers — was a source map: a debug artifact that works like an X-ray of compiled code, rendering the internal structure legible to anyone who holds it up to the light. By noon, the entire codebase was [mirrored on GitHub](https://github.com/sanbuphy/claude-code-source-code). By evening, it had 1,100 stars. By the next morning, someone had [rewritten it in Rust](https://github.com/Kuberwastaken/claude-code).
 
@@ -126,7 +126,7 @@ The previous best model, referred to as v4: **16.7%**. Roughly one in six.
 
 The more capable model lies almost twice as often.
 
-![False claims comparison: v4 has 5 green checkmarks and 1 cracked red; v8 has 4 green and 2 cracked red](./assets/images/image-2-1775045313899-5vjx.png)
+![False claims comparison: v4 has 5 green checkmarks and 1 cracked red; v8 has 4 green and 2 cracked red](./assets/images/image-2-1775045313899-5vjx.webp)
 
 This isn't buried in an obscure file. It's in the main system prompt builder — the code that assembles the instructions Claude receives before every conversation. And it's followed by a block of text that only Anthropic's internal engineers see:
 
@@ -207,7 +207,7 @@ Now look at **[OpenClaw](https://github.com/openclaw/openclaw)** — the open-so
 - **Push notifications** via platform-native APIs
 - **Voice Wake and Talk Mode** on macOS/iOS/Android
 
-![Floor plans: OpenClaw (dashed walls, open source) and KAIROS (solid walls, Claude only) — same rooms, different access](./assets/images/image-3-1775045327622-07xc.png)
+![Floor plans: OpenClaw (dashed walls, open source) and KAIROS (solid walls, Claude only) — same rooms, different access](./assets/images/image-3-1775045327622-07xc.webp)
 
 Place the two architectures side by side and the blueprints are nearly congruent. Persistent daemon. Channel abstraction. Inbound push notifications. Proactive scheduling. Structured user communication. Both products solve the same problem — turning a language model into a persistent, channel-connected, proactive assistant — and arrived at nearly identical design decisions, the way two bridge engineers facing the same river independently converge on a suspension design.
 

@@ -1,6 +1,6 @@
 # The Quiet Revolution That Nobody Named
 
-![Cover — a hand holds a glowing smartphone against a landscape bridging a fishing village, an African market with laptops, and a modern skyline](images/cover.png)
+![Cover — a hand holds a glowing smartphone against a landscape bridging a fishing village, an African market with laptops, and a modern skyline](images/cover.webp)
 
 ---
 
@@ -16,7 +16,7 @@ But what if this account, while accurate, is fundamentally incomplete?
 
 ---
 
-![A Kerala fisherman standing in a wooden boat full of mackerel, phone pressed to his ear, dawn light on the water — the moment information access equalized a market](images/kerala-fisherman-phone.png)
+![A Kerala fisherman standing in a wooden boat full of mackerel, phone pressed to his ear, dawn light on the water — the moment information access equalized a market](images/kerala-fisherman-phone.webp)
 
 In 1997, fishermen working the Kerala coast in southern India faced a problem as old as commerce itself: too much catch, and no way to know where demand existed. When a boat returned to shore with a surplus of mackerel, the choice was stark: sell at whatever price the local market would bear, or dump the excess into the sea. Meanwhile, markets ten or fifteen kilometers up the coast might have unmet demand that same morning — buyers ready to pay, no fish to buy. The system was not broken. It was working exactly as markets work when participants cannot communicate. Buyers and sellers were separated not by distance but by information. The fish rotted in one place while people went without in another.
 
@@ -72,7 +72,7 @@ In 1492, a German abbot named Johannes Trithemius sat down to write a book. The 
 
 Trithemius's book was published in 1494 as a printed book.
 
-![Abbot Trithemius at his desk — quill in one hand, a printed book in the other, while through the arched window behind him a printing press runs](images/trithemius-irony.png)
+![Abbot Trithemius at his desk — quill in one hand, a printed book in the other, while through the arched window behind him a printing press runs](images/trithemius-irony.webp)
 
 He used the technology he decried to distribute his complaint about the technology. The irony is perfect, and it is not accidental. The abbot's objection was not really about paper versus parchment. It was about the disruption of a practice — sacred manuscript copying — that organized the monastery's time, legitimized the monks' role, and protected the Church's monopoly on textual production. The printing press was going to equalize access to text. Trithemius, whose institution held that equalizing power, objected. The objection wore spiritual dress. Its social function was the preservation of a gatekeeping monopoly.
 

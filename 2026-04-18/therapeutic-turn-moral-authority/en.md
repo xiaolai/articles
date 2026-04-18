@@ -1,6 +1,6 @@
 # You Have Already Done This
 
-![A medical syringe resting on a cream surface, the warm glow of a kitchen out of focus in the background.](images/therapeutic-turn-cover-a.png)
+![A medical syringe resting on a cream surface, the warm glow of a kitchen out of focus in the background.](images/therapeutic-turn-cover-a.webp)
 
 *All images in this article were generated with AI.*
 
@@ -22,7 +22,7 @@ You tell her the drawing is beautiful. You tell her Emma was being mean. You say
 
 She calms down. She goes to her room. You go back to the kitchen.
 
-![A woman sits alone at a kitchen table in warm evening light, a child's drawing on the surface in front of her.](images/therapeutic-turn-1-kitchen-table.png)
+![A woman sits alone at a kitchen table in warm evening light, a child's drawing on the surface in front of her.](images/therapeutic-turn-1-kitchen-table.webp)
 
 You do not know, yet, that you have just applied a different principle than the one at the doctor's office. At the doctor's office, you held her still so she could receive something uncomfortable. In the kitchen, you moved in quickly so she would not have to. At the doctor's office, you were giving her a dose. In the kitchen, you removed one.
 
@@ -117,7 +117,7 @@ And also: she has started asking you things, in the small moments — in the car
 
 She has been told she is wonderful for as long as she can remember. She suspects the adults are managing her.
 
-![A child, seen from behind, reaches up toward a crayon drawing pinned to a refrigerator door.](images/therapeutic-turn-2-fridge-drawing.png)
+![A child, seen from behind, reaches up toward a crayon drawing pinned to a refrigerator door.](images/therapeutic-turn-2-fridge-drawing.webp)
 
 A 2017 study followed a hundred and twenty parent-child pairs — children aged seven to eleven — over time.[^12] It tracked how often parents gave inflated praise: not just "that's beautiful," but "that's not just beautiful, that's *incredibly* beautiful." Over time, the children whose parents gave the most inflated praise ended up with lower self-esteem, not higher. The paper's own summary of what it found: "Inflated praise may foster the self-views it seeks to prevent." Po Bronson had said it more plainly years earlier: "We expect so much of them, but we hide our expectations behind constant glowing praise."[^18]
 
@@ -196,7 +196,7 @@ And you realize, quietly, that you are hearing yourself in her voice. Not her wo
 
 You taught her that. You did it with love. The love was real. The bill came due anyway.
 
-![A young woman sits in a parked car, head slightly bowed, an office building blurred through the window behind her.](images/therapeutic-turn-3-car-scene.png)
+![A young woman sits in a parked car, head slightly bowed, an office building blurred through the window behind her.](images/therapeutic-turn-3-car-scene.webp)
 
 This is not a verdict on the past. The love was never in question, and the past is not where you live. This is a question about the next time.
 
