@@ -2,9 +2,9 @@
 
 ![一支医用注射器静静躺在奶油色的桌面上，背景中是柔焦的温暖厨房光线。](images/therapeutic-turn-cover-a.webp)
 
-*本文所有配图均由 AI 生成。*
+_本文所有配图均由 AI 生成。_
 
-> *心智的韧性，就是大脑的疫苗。想一想疫苗是怎么工作的：身体先接触到极少量的病毒，免疫系统随之被调动起来；等日后真正的病毒入侵，身体早已做好准备，一击即溃。*
+> _心智的韧性，就是大脑的疫苗。想一想疫苗是怎么工作的：身体先接触到极少量的病毒，免疫系统随之被调动起来；等日后真正的病毒入侵，身体早已做好准备，一击即溃。_
 >
 > —— S。纳西尔·加米 (S. Nassir Ghaemi)，《一流的疯狂》(A First-Rate Madness)
 
@@ -212,57 +212,56 @@ flowchart TD
 
 门还开着。
 
-## References
+## 参考文献
 
-[^1]: Pier, G.B., Lyczak, J.B., & Wetzler, L.M. "Fundamentals of Vaccine Immunology." *Journal of Global Infectious Diseases*, PMC 3068582, 2011. [https\://pmc.ncbi.nlm.nih.gov/articles/PMC3068582/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3068582/); CDC. "Principles of Vaccination." *The Pink Book*, Chapter 1. [https\://www\.cdc.gov/pinkbook/hcp/table-of-contents/chapter-1-principles-of-vaccination.html](https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-1-principles-of-vaccination.html) <!-- E-03 -->
+[^1]: Pier, G.B., Lyczak, J.B., & Wetzler, L.M. "Fundamentals of Vaccine Immunology." _Journal of Global Infectious Diseases_, PMC 3068582, 2011. [https\://pmc.ncbi.nlm.nih.gov/articles/PMC3068582/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3068582/); CDC. "Principles of Vaccination." _The Pink Book_, Chapter 1. [https\://www\.cdc.gov/pinkbook/hcp/table-of-contents/chapter-1-principles-of-vaccination.html](https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-1-principles-of-vaccination.html) <!-- E-03 -->
 
-[^2]: California Task Force to Promote Self-Esteem and Personal and Social Responsibility. *Toward a State of Esteem: The Final Report of the California Task Force to Promote Self-Esteem and Personal and Social Responsibility*. California Department of Education, 1990. ERIC document ED321170. [https\://eric.ed.gov/?id=ED321170](https://eric.ed.gov/?id=ED321170) <!-- E-01 -->
+[^2]: California Task Force to Promote Self-Esteem and Personal and Social Responsibility. _Toward a State of Esteem: The Final Report of the California Task Force to Promote Self-Esteem and Personal and Social Responsibility_. California Department of Education, 1990. ERIC document ED321170. [https\://eric.ed.gov/?id=ED321170](https://eric.ed.gov/?id=ED321170) <!-- E-01 -->
 
-[^3]: Gershoff, E.T. & Grogan-Kaylor, A. "Spanking and Child Outcomes: Old Controversies and New Meta-Analyses." *Journal of Family Psychology*, 30(4), 453–469, 2016. [https\://pubmed.ncbi.nlm.nih.gov/27055181/](https://pubmed.ncbi.nlm.nih.gov/27055181/) <!-- E-14 -->
+[^3]: Gershoff, E.T. & Grogan-Kaylor, A. "Spanking and Child Outcomes: Old Controversies and New Meta-Analyses." _Journal of Family Psychology_, 30(4), 453–469, 2016. [https\://pubmed.ncbi.nlm.nih.gov/27055181/](https://pubmed.ncbi.nlm.nih.gov/27055181/) <!-- E-14 -->
 
-[^4]: Felitti, V.J., Anda, R.F., Nordenberg, D., Williamson, D.F., Spitz, A.M., Edwards, V., Koss, M.P., & Marks, J.S. "Relationship of Childhood Abuse and Household Dysfunction to Many of the Leading Causes of Death in Adults: The Adverse Childhood Experiences (ACE) Study." *American Journal of Preventive Medicine*, 14(4), 245–258, 1998. [https\://pubmed.ncbi.nlm.nih.gov/9635069/](https://pubmed.ncbi.nlm.nih.gov/9635069/) <!-- E-18 -->
+[^4]: Felitti, V.J., Anda, R.F., Nordenberg, D., Williamson, D.F., Spitz, A.M., Edwards, V., Koss, M.P., & Marks, J.S. "Relationship of Childhood Abuse and Household Dysfunction to Many of the Leading Causes of Death in Adults: The Adverse Childhood Experiences (ACE) Study." _American Journal of Preventive Medicine_, 14(4), 245–258, 1998. [https\://pubmed.ncbi.nlm.nih.gov/9635069/](https://pubmed.ncbi.nlm.nih.gov/9635069/) <!-- E-18 -->
 
-[^5]: Mueller, C.M. & Dweck, C.S. "Praise for Intelligence Can Undermine Children's Motivation and Performance." *Journal of Personality and Social Psychology*, 75(1), 33–52, 1998. [https\://pubmed.ncbi.nlm.nih.gov/9686450/](https://pubmed.ncbi.nlm.nih.gov/9686450/) <!-- E-04 -->
+[^5]: Mueller, C.M. & Dweck, C.S. "Praise for Intelligence Can Undermine Children's Motivation and Performance." _Journal of Personality and Social Psychology_, 75(1), 33–52, 1998. [https\://pubmed.ncbi.nlm.nih.gov/9686450/](https://pubmed.ncbi.nlm.nih.gov/9686450/) <!-- E-04 -->
 
-[^6]: Dweck, C.S. "Caution — Praise Can Be Dangerous." *American Educator* (American Federation of Teachers), Spring 1999. [https\://www\.aft.org/sites/default/files/PraiseSpring99.pdf](https://www.aft.org/sites/default/files/PraiseSpring99.pdf) <!-- E-05 -->
+[^6]: Dweck, C.S. "Caution — Praise Can Be Dangerous." _American Educator_ (American Federation of Teachers), Spring 1999. [https\://www\.aft.org/sites/default/files/PraiseSpring99.pdf](https://www.aft.org/sites/default/files/PraiseSpring99.pdf) <!-- E-05 -->
 
-[^7]: Sinha, T. & Kapur, M. "When Problem Solving Followed by Instruction Works: Evidence for Productive Failure." *Review of Educational Research*, 91(5), 761–798, 2021. [https\://journals.sagepub.com/doi/10.3102/00346543211019105](https://journals.sagepub.com/doi/10.3102/00346543211019105) <!-- E-08 -->
+[^7]: Sinha, T. & Kapur, M. "When Problem Solving Followed by Instruction Works: Evidence for Productive Failure." _Review of Educational Research_, 91(5), 761–798, 2021. [https\://journals.sagepub.com/doi/10.3102/00346543211019105](https://journals.sagepub.com/doi/10.3102/00346543211019105) <!-- E-08 -->
 
-[^8]: Badel, E., Ewers, F.W., Cochard, H., & Telewski, F.W. "Acclimation of Mechanical and Hydraulic Functions in Trees: Impact of the Thigmomorphogenetic Process." *Frontiers in Plant Science*, PMC 4406077, 2015. [https\://pmc.ncbi.nlm.nih.gov/articles/PMC4406077/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4406077/) <!-- E-11 -->
+[^8]: Badel, E., Ewers, F.W., Cochard, H., & Telewski, F.W. "Acclimation of Mechanical and Hydraulic Functions in Trees: Impact of the Thigmomorphogenetic Process." _Frontiers in Plant Science_, PMC 4406077, 2015. [https\://pmc.ncbi.nlm.nih.gov/articles/PMC4406077/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4406077/) <!-- E-11 -->
 
-[^9]: Wolff, J. *The Law of Bone Remodelling* (original formulation, 1892). Clinical summary: Physio-pedia, "Wolff's Law." [https\://www\.physio-pedia.com/Wolff%27s_Law](https://www.physio-pedia.com/Wolff%27s_Law); PMC 6846251 — "Law of Dynamic Deformation of Bone." [https\://pmc.ncbi.nlm.nih.gov/articles/PMC6846251/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6846251/) <!-- E-12 -->
+[^9]: Wolff, J. _The Law of Bone Remodelling_ (original formulation, 1892). Clinical summary: Physio-pedia, "Wolff's Law." [https\://www\.physio-pedia.com/Wolff%27s_Law](https://www.physio-pedia.com/Wolff%27s_Law); PMC 6846251 — "Law of Dynamic Deformation of Bone." [https\://pmc.ncbi.nlm.nih.gov/articles/PMC6846251/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6846251/) <!-- E-12 -->
 
-[^10]: Twenge, J.M. "Increases in Depression, Self-Harm, and Suicide Among U.S. Adolescents After 2012 and Links to Technology Use: Possible Mechanisms." *Psychiatric Research and Clinical Practice*, 2(1), 19–25, 2020. DOI: 10.1176/appi.prcp.20190015. PMC 9176070. [https\://pmc.ncbi.nlm.nih.gov/articles/PMC9176070/](https://pmc.ncbi.nlm.nih.gov/articles/PMC9176070/) <!-- E-09 -->
+[^10]: Twenge, J.M. "Increases in Depression, Self-Harm, and Suicide Among U.S. Adolescents After 2012 and Links to Technology Use: Possible Mechanisms." _Psychiatric Research and Clinical Practice_, 2(1), 19–25, 2020. DOI: 10.1176/appi.prcp.20190015. PMC 9176070. [https\://pmc.ncbi.nlm.nih.gov/articles/PMC9176070/](https://pmc.ncbi.nlm.nih.gov/articles/PMC9176070/) <!-- E-09 -->
 
-[^11]: Odgers, C.L. "The Great Rewiring: Is Social Media Really Behind an Epidemic of Teenage Mental Illness?" *Nature*, 628:29, 2024. DOI: 10.1038/d41586-024-00902-2. [https\://www\.nature.com/articles/d41586-024-00902-2](https://www.nature.com/articles/d41586-024-00902-2) <!-- E-17 -->
+[^11]: Odgers, C.L. "The Great Rewiring: Is Social Media Really Behind an Epidemic of Teenage Mental Illness?" _Nature_, 628:29, 2024. DOI: 10.1038/d41586-024-00902-2. [https\://www\.nature.com/articles/d41586-024-00902-2](https://www.nature.com/articles/d41586-024-00902-2) <!-- E-17 -->
 
-[^12]: Brummelman, E., Nelemans, S.A., Thomaes, S., & Orobio de Castro, B. "When Parents' Praise Inflates, Children's Self-Esteem Deflates." *Child Development*, 88(6), 1799–1809, 2017. [https\://pubmed.ncbi.nlm.nih.gov/28857141/](https://pubmed.ncbi.nlm.nih.gov/28857141/) <!-- E-07 -->
+[^12]: Brummelman, E., Nelemans, S.A., Thomaes, S., & Orobio de Castro, B. "When Parents' Praise Inflates, Children's Self-Esteem Deflates." _Child Development_, 88(6), 1799–1809, 2017. [https\://pubmed.ncbi.nlm.nih.gov/28857141/](https://pubmed.ncbi.nlm.nih.gov/28857141/) <!-- E-07 -->
 
-[^13]: Brummelman, E., Thomaes, S., Orobio de Castro, B., Overbeek, G., & Bushman, B.J. "That's Not Just Beautiful — That's Incredibly Beautiful!: The Adverse Impact of Inflated Praise on Children With Low Self-Esteem." *Psychological Science*, 25(3), 728–735, 2014. [https\://pubmed.ncbi.nlm.nih.gov/24434235/](https://pubmed.ncbi.nlm.nih.gov/24434235/) <!-- E-06 -->
+[^13]: Brummelman, E., Thomaes, S., Orobio de Castro, B., Overbeek, G., & Bushman, B.J. "That's Not Just Beautiful — That's Incredibly Beautiful!: The Adverse Impact of Inflated Praise on Children With Low Self-Esteem." _Psychological Science_, 25(3), 728–735, 2014. [https\://pubmed.ncbi.nlm.nih.gov/24434235/](https://pubmed.ncbi.nlm.nih.gov/24434235/) <!-- E-06 -->
 
-[^14]: Baumeister, R.F., Campbell, J.D., Krueger, J.I., & Vohs, K.D. "Does High Self-Esteem Cause Better Performance, Interpersonal Success, Happiness, or Healthier Lifestyles?" *Psychological Science in the Public Interest*, 4(1), 1–44, 2003. [https\://journals.sagepub.com/doi/10.1111/1529-1006.01431](https://journals.sagepub.com/doi/10.1111/1529-1006.01431); updated: Baumeister, R.F. & Vohs, K.D. "Revisiting Our Reappraisal of the (Surprisingly Few) Benefits of High Self-Esteem." *Perspectives on Psychological Science*, 2018. [https\://pubmed.ncbi.nlm.nih.gov/29592638/](https://pubmed.ncbi.nlm.nih.gov/29592638/) <!-- E-13 -->
+[^14]: Baumeister, R.F., Campbell, J.D., Krueger, J.I., & Vohs, K.D. "Does High Self-Esteem Cause Better Performance, Interpersonal Success, Happiness, or Healthier Lifestyles?" _Psychological Science in the Public Interest_, 4(1), 1–44, 2003. [https\://journals.sagepub.com/doi/10.1111/1529-1006.01431](https://journals.sagepub.com/doi/10.1111/1529-1006.01431); updated: Baumeister, R.F. & Vohs, K.D. "Revisiting Our Reappraisal of the (Surprisingly Few) Benefits of High Self-Esteem." _Perspectives on Psychological Science_, 2018. [https\://pubmed.ncbi.nlm.nih.gov/29592638/](https://pubmed.ncbi.nlm.nih.gov/29592638/) <!-- E-13 -->
 
-[^15]: McCoy, S., Dimler, L.M., & Rodrigues, M. "Parenting in Overdrive: A Meta-analysis of Helicopter Parenting Across Multiple Indices of Emerging Adult Functioning." *Journal of Adult Development*, 32, 222–245, 2024. DOI: 10.1007/s10804-024-09496-5. [https\://link.springer.com/article/10.1007/s10804-024-09496-5](https://link.springer.com/article/10.1007/s10804-024-09496-5) <!-- E-10 -->
+[^15]: McCoy, S., Dimler, L.M., & Rodrigues, M. "Parenting in Overdrive: A Meta-analysis of Helicopter Parenting Across Multiple Indices of Emerging Adult Functioning." _Journal of Adult Development_, 32, 222–245, 2024. DOI: 10.1007/s10804-024-09496-5. [https\://link.springer.com/article/10.1007/s10804-024-09496-5](https://link.springer.com/article/10.1007/s10804-024-09496-5) <!-- E-10 -->
 
-[^16]: Lebowitz, E.R., Marin, C., Martino, A., Shimshoni, Y., & Silverman, W\.K. "Parent-Based Treatment as Efficacious as Cognitive Behavioral Therapy for Childhood Anxiety: A Randomized Noninferiority Study of Supportive Parenting for Anxious Childhood Emotions." *Journal of the American Academy of Child & Adolescent Psychiatry*, 59(3), 362–372, 2020. DOI: 10.1016/j.jaac.2019.02.014. PMC 6732048. [https\://pmc.ncbi.nlm.nih.gov/articles/PMC6732048/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6732048/) <!-- E-16 -->
+[^16]: Lebowitz, E.R., Marin, C., Martino, A., Shimshoni, Y., & Silverman, W\.K. "Parent-Based Treatment as Efficacious as Cognitive Behavioral Therapy for Childhood Anxiety: A Randomized Noninferiority Study of Supportive Parenting for Anxious Childhood Emotions." _Journal of the American Academy of Child & Adolescent Psychiatry_, 59(3), 362–372, 2020. DOI: 10.1016/j.jaac.2019.02.014. PMC 6732048. [https\://pmc.ncbi.nlm.nih.gov/articles/PMC6732048/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6732048/) <!-- E-16 -->
 
-[^17]: Taleb, N.N. *Antifragile: Things That Gain from Disorder*. Random House, 2012. “那些正在试图帮助我们的人,往往也是把我们伤得最深的人”这句话在塔勒布关于脆弱化系统的写作中反复出现;与神经质式过度保护型育儿之间的类比,是塔勒布本人的类比。
+[^17]: Taleb, N.N. _Antifragile: Things That Gain from Disorder_. Random House, 2012. “那些正在试图帮助我们的人,往往也是把我们伤得最深的人”这句话在塔勒布关于脆弱化系统的写作中反复出现;与神经质式过度保护型育儿之间的类比,是塔勒布本人的类比。
 
-[^18]: Bronson, P. & Merryman, A. *NurtureShock: New Thinking About Children*. Twelve / Grand Central Publishing, 2009. 第 1 章:“The Inverse Power of Praise(表扬的反向力量)”。
+[^18]: Bronson, P. & Merryman, A. _NurtureShock: New Thinking About Children_. Twelve / Grand Central Publishing, 2009. 第 1 章:“The Inverse Power of Praise(表扬的反向力量)”。
 
-[^19]: Kohn, A. *Punished by Rewards: The Trouble with Gold Stars, Incentive Plans, A's, Praise, and Other Bribes*. 25th Anniversary Edition. Houghton Mifflin Harcourt, 2018(原版 1993 年)。
+[^19]: Kohn, A. _Punished by Rewards: The Trouble with Gold Stars, Incentive Plans, A's, Praise, and Other Bribes_. 25th Anniversary Edition. Houghton Mifflin Harcourt, 2018(原版 1993 年)。
 
-[^20]: Haidt, J. *The Anxious Generation: How the Great Rewiring of Childhood Is Causing an Epidemic of Mental Illness*. Penguin Press, 2024. 本文在此处仅引用其关于“过度保护”的观察;海特更大论点中关于“手机是成因”的分支仍有争议 —— 参见 [^11]。
+[^20]: Haidt, J. _The Anxious Generation: How the Great Rewiring of Childhood Is Causing an Epidemic of Mental Illness_. Penguin Press, 2024. 本文在此处仅引用其关于“过度保护”的观察;海特更大论点中关于“手机是成因”的分支仍有争议 —— 参见 [^11]。
 
-[^21]: Gopnik, A. *The Gardener and the Carpenter: What the New Science of Child Development Tells Us About the Relationship Between Parents and Children*. Farrar, Straus and Giroux, 2016. 第 1 章:“Against Parenting(反对‘育儿’)”。
+[^21]: Gopnik, A. _The Gardener and the Carpenter: What the New Science of Child Development Tells Us About the Relationship Between Parents and Children_. Farrar, Straus and Giroux, 2016. 第 1 章:“Against Parenting(反对‘育儿’)”。
 
-[^22]: Lansbury, J. *No Bad Kids: Toddler Discipline Without Shame*. JLML Press, 2014.
+[^22]: Lansbury, J. _No Bad Kids: Toddler Discipline Without Shame_. JLML Press, 2014.
 
 ## 延伸阅读
 
-- Dweck, C.S. *Mindset: The New Psychology of Success*. Random House, 2006。 —— 关于成长型思维以及 “夸智力 vs。夸努力” 这一核心区分的第一手来源；是理解 E-04 和 E-05 的必要背景。本文的核心机理，正是德韦克工作的流行化误读；直接读她本人的书能纠正这一误读。
-- Haidt, J. *The Anxious Generation: How the Great Rewiring of Childhood Is Causing an Epidemic of Mental Illness*. Penguin Press, 2024。 —— 当前关于青少年心理健康恶化最具影响力的论述；与 E-09 直接相邻，且被 E-17（奥杰斯）所质疑。本文在 “手机是否为主因” 的争论中不选边，因此未将其列入正文引用；但它是理解 “为什么奥杰斯这篇文章重要” 的必备背景。
-- Kapur, M. “Productive Failure in Mathematical Problem Solving.” *Instructional Science*, 38(6), 523–550, 2010. —— E-08 所引用的元分析背后的奠基性论文；提供了 “为什么先挣扎再讲解有效，而先讲解反而不行” 的机理解释。
-- Lebowitz, E.R. *Breaking Free of Child Anxiety and OCD: A Scientifically Proven Program for Parents*. Oxford University Press, 2021. —— E-16 中所描述的 SPACE 方案的父母读本。对于 “减少迁就” 在实际生活中是什么样子，这本书是目前最清楚的一份指南；对那位带着被诊断焦虑孩子的母亲，这本书是最直接的回答。
-- Lythcott-Haims, J. *How to Raise an Adult: Break Free of the Overparenting Trap and Prepare Your Kid for Success*. Henry Holt, 2015. —— E-10 的相关延伸阅读；是对 “直升机式育儿及其在大学年龄段青年身上的后果” 最易读的一本书级论述。对本文的次要受众群（孩子正处于 15–22 岁阶段的父母）尤为合适。
-
+- Dweck, C.S. _Mindset: The New Psychology of Success_. Random House, 2006。 —— 关于成长型思维以及 “夸智力 vs。夸努力” 这一核心区分的第一手来源；是理解 E-04 和 E-05 的必要背景。本文的核心机理，正是德韦克工作的流行化误读；直接读她本人的书能纠正这一误读。
+- Haidt, J. _The Anxious Generation: How the Great Rewiring of Childhood Is Causing an Epidemic of Mental Illness_. Penguin Press, 2024。 —— 当前关于青少年心理健康恶化最具影响力的论述；与 E-09 直接相邻，且被 E-17（奥杰斯）所质疑。本文在 “手机是否为主因” 的争论中不选边，因此未将其列入正文引用；但它是理解 “为什么奥杰斯这篇文章重要” 的必备背景。
+- Kapur, M. “Productive Failure in Mathematical Problem Solving.” _Instructional Science_, 38(6), 523–550, 2010. —— E-08 所引用的元分析背后的奠基性论文；提供了 “为什么先挣扎再讲解有效，而先讲解反而不行” 的机理解释。
+- Lebowitz, E.R. _Breaking Free of Child Anxiety and OCD: A Scientifically Proven Program for Parents_. Oxford University Press, 2021. —— E-16 中所描述的 SPACE 方案的父母读本。对于 “减少迁就” 在实际生活中是什么样子，这本书是目前最清楚的一份指南；对那位带着被诊断焦虑孩子的母亲，这本书是最直接的回答。
+- Lythcott-Haims, J. _How to Raise an Adult: Break Free of the Overparenting Trap and Prepare Your Kid for Success_. Henry Holt, 2015. —— E-10 的相关延伸阅读；是对 “直升机式育儿及其在大学年龄段青年身上的后果” 最易读的一本书级论述。对本文的次要受众群（孩子正处于 15–22 岁阶段的父母）尤为合适。

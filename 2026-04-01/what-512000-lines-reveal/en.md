@@ -2,8 +2,6 @@
 
 *The coverage was fast. The code is 512,000 lines. Here's what's inside.*
 
----
-
 ![](./assets/images/cover-1775045032585-gepz.webp)
 
 At 4:23 AM on March 31, 2026, an intern named Chaofan Shou noticed a 59.8 MB file sitting in plain sight on the npm registry. Inside Anthropic's Claude Code package — the AI coding tool used by hundreds of thousands of developers — was a source map: a debug artifact that works like an X-ray of compiled code, rendering the internal structure legible to anyone who holds it up to the light. By noon, the entire codebase was [mirrored on GitHub](https://github.com/sanbuphy/claude-code-source-code). By evening, it had 1,100 stars. By the next morning, someone had [rewritten it in Rust](https://github.com/Kuberwastaken/claude-code).
@@ -11,8 +9,6 @@ At 4:23 AM on March 31, 2026, an intern named Chaofan Shou noticed a 59.8 MB fil
 The coverage came fast. *[Fortune](https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/)* called it "a second major security breach." *[Gizmodo](https://gizmodo.com/source-code-for-anthropics-claude-code-leaks-at-the-exact-wrong-time-2000740379)* noted it came "at the exact wrong time." Analyses on Dev.to and Hacker News catalogued the highlights — KAIROS, Buddy, Undercover Mode, 44 feature flags.
 
 But 512,000 lines is a lot of code. Most of the coverage focused on what the features are. Fewer pieces explored how they work, or what they mean. A close reading of all 1,332 source files reveals several layers the initial coverage didn't reach.
-
----
 
 ## The Eighteen Animals
 
@@ -79,8 +75,6 @@ It's delightful. But the hex encoding tells a different story. Somewhere in thos
 
 That's not just engineering. That's tradecraft.
 
----
-
 ## Untangling the Codenames
 
 Model codenames were among the first details to circulate. [Early analyses](https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/) identified names like Tengu and Fennec; [subsequent coverage](https://venturebeat.com/technology/claude-codes-source-code-appears-to-have-leaked-heres-what-we-know) mapped them to model tiers. But the source code tells a more nuanced story.
@@ -106,8 +100,6 @@ The timeline tells its own story. On March 26, a CMS misconfiguration [exposed d
 The codename leaked. The code that hid the codename leaked. Then the codename became a toy.
 
 Inside that code, a comment that no press release would ever contain.
-
----
 
 ## The False Claims Rate
 
@@ -151,8 +143,6 @@ Capybara v8 follows a similar pattern. Its benchmark scores are the highest Anth
 
 The more capable the system, the more its weaknesses shift from technical to behavioral. That was true of Enigma in 1940. It appears to be true of large language models in 2026.
 
----
-
 ## The Prompt Factory
 
 [Initial coverage](https://venturebeat.com/technology/claude-codes-source-code-appears-to-have-leaked-heres-what-we-know) noted that Claude Code uses a modular system prompt with cache-aware boundaries. The source code reveals just how deep that modularity goes.
@@ -179,8 +169,6 @@ The prompt itself has a 6-tier memory hierarchy: Managed (enterprise policy) →
 Files loaded later have higher priority — the model pays more attention to what it read most recently. The effect is jurisdictional: local law overrides state law, which overrides federal law. Your private instructions override the project rules, which override the enterprise policy.
 
 This cache-aware prompt architecture is, for practitioners building on LLM APIs, arguably the most directly reusable pattern in the entire codebase.
-
----
 
 ## The Competitive Dimension
 
@@ -219,8 +207,6 @@ KAIROS is the iPhone play: Claude-only, deeply integrated, controlled end-to-end
 
 The [initial](https://venturebeat.com/technology/claude-codes-source-code-appears-to-have-leaked-heres-what-we-know) [coverage](https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/) focused on KAIROS as a feature. Placed alongside OpenClaw, it reads more like a strategic move.
 
----
-
 ## Seven Systems and One Dotfile
 
 Here is a fact about Anthropic's engineering culture that the source code proves beyond any doubt: they are extremely good at security.
@@ -257,8 +243,6 @@ In 1999, NASA lost the [$125 million Mars Climate Orbiter](https://www.simscale.
 
 Every system protected its own domain perfectly. No system protected the boundary between domains.
 
----
-
 One line. Six characters plus a file extension.
 
 ```
@@ -272,7 +256,5 @@ A line in a dotfile that wasn't there.
 Seven security systems that guard the code. A model tier named after an animal gentle enough to be a pet. A false claims rate that climbs as capability grows. A platform war that mirrors the one between Android and iPhone. An always-on assistant, coiled behind a flag, waiting to wake.
 
 All of it inside a 59.8 MB file, on a public registry, for anyone to read. All of it revealed by one missing line in one dotfile on one Monday morning.
-
----
 
 *Primary source: Claude Code CLI v2.1.88, unpacked from **********`claude-code-2.1.88.tgz`**********. All file paths and code excerpts verified against the original source tree.*

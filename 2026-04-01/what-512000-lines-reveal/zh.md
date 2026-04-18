@@ -2,8 +2,6 @@
 
 *报道来得很快。但代码有 51.2 万行。这是里面的东西。*
 
----
-
 ![](./assets/images/cover-1775045032585-gepz.webp)
 
 2026 年 3 月 31 日凌晨 4:23，Solayer Labs 的实习生 Chaofan Shou 在 npm 公共仓库中发现了一个不该出现的文件：59.8 MB，藏在 Anthropic 的 Claude Code 包里。Claude Code 是数十万开发者日常使用的 AI 编程工具，而这个文件是一份 source map —— 一种调试产物，相当于编译后代码的 X 光片，任何人只要拿到它，就能把内部结构看得一清二楚。中午，整个代码库已被[镜像到 GitHub](https://github.com/sanbuphy/claude-code-source-code)。傍晚，star 数突破 1,100。第二天早上，已经有人[用 Rust 重写了一遍](https://github.com/Kuberwastaken/claude-code)。
@@ -11,8 +9,6 @@
 报道铺天盖地。*[Fortune](https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/)* 称其为"第二次重大安全事故"。*[Gizmodo](https://gizmodo.com/source-code-for-anthropics-claude-code-leaks-at-the-exact-wrong-time-2000740379)* 说时机"再糟糕不过了"。Dev.to 和 Hacker News 上的分析迅速罗列出要点 —— KAIROS、Buddy、Undercover Mode、44 个功能开关。
 
 但 51.2 万行代码，实在太多了。大多数报道停留在"有哪些功能"的层面，很少有人深入到"它们是怎么运作的"，以及"这意味着什么"。逐文件通读全部 1,332 个源码文件之后，浮现出若干初始报道未曾触及的层面。
-
----
 
 ## 十八只动物
 
@@ -79,8 +75,6 @@ export const cat = c(0x63,0x61,0x74) as 'cat'
 
 这不只是工程。这是谍报术。
 
----
-
 ## 理清代号
 
 模型代号是最先被传播的细节。[早期分析](https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/)识别出了 Tengu 和 Fennec 等名字；[后续报道](https://venturebeat.com/technology/claude-codes-source-code-appears-to-have-leaked-heres-what-we-know)将它们映射到模型层级。但源码讲述的故事更加微妙。
@@ -106,8 +100,6 @@ Capybara 不是一个模型版本。它是一个**全新层级** —— 自 2024
 代号泄漏了。隐藏代号的代码泄漏了。然后代号变成了玩具。
 
 在那些代码里，有一条任何新闻稿都不会包含的注释。
-
----
 
 ## 虚假声明率
 
@@ -151,8 +143,6 @@ Capybara v8 呈现出类似的模式。它的基准测试分数是 Anthropic 有
 
 系统越强大，其弱点就越从技术层面转向行为层面。1940 年的恩尼格玛如此。2026 年的大语言模型，看来也是如此。
 
----
-
 ## 提示词工厂
 
 [初始报道](https://venturebeat.com/technology/claude-codes-source-code-appears-to-have-leaked-heres-what-we-know)注意到 Claude Code 使用了具有缓存感知边界的模块化系统提示词。源码揭示了这种模块化到底有多深。
@@ -179,8 +169,6 @@ export const SYSTEM_PROMPT_DYNAMIC_BOUNDARY =
 越晚加载的文件优先级越高 —— 模型更关注最近读到的内容。效果类似于司法管辖：地方法规覆盖省级法规，省级覆盖国家法规。你的私人指令覆盖项目规则，项目规则覆盖企业策略。
 
 这套缓存感知的提示词架构，对于在 LLM API 上构建产品的从业者来说，可能是整个代码库中最直接可复用的设计模式。
-
----
 
 ## 竞争暗线
 
@@ -219,8 +207,6 @@ KAIROS 是 iPhone 式的打法：仅限 Claude，深度整合，Anthropic 端到
 
 [初始](https://venturebeat.com/technology/claude-codes-source-code-appears-to-have-leaked-heres-what-we-know)[报道](https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/)将 KAIROS 当作一个功能来讨论。放在 OpenClaw 旁边，它更像是一步战略棋。
 
----
-
 ## 七套系统与一个点文件
 
 关于 Anthropic 的工程文化，源码证明了一个无可争议的事实：他们在安全方面极其出色。
@@ -257,8 +243,6 @@ KAIROS 是 iPhone 式的打法：仅限 Claude，深度整合，Anthropic 端到
 
 每套系统都完美地守护了自己的领域。没有任何系统守护了领域之间的边界。
 
----
-
 一行。六个字符加一个文件扩展名。
 
 ```
@@ -272,7 +256,5 @@ KAIROS 是 iPhone 式的打法：仅限 Claude，深度整合，Anthropic 端到
 七套守护代码的安全系统。一个以温驯动物命名的模型层级。一个随着能力增长而攀升的虚假声明率。一场重演 Android 与 iPhone 之争的平台战争。一个蛰伏在功能开关后面、等待苏醒的始终在线助手。
 
 全部装在一个 59.8 MB 的文件里，放在公开仓库中，任何人都可以阅读。全部因为一个点文件中的一行缺失，在一个周一的早晨，暴露于天下。
-
----
 
 *主要来源：Claude Code CLI v2.1.88，解包自 ******`claude-code-2.1.88.tgz`******。所有文件路径及代码摘录均经原始源码树验证。*
